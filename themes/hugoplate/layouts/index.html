@@ -21,7 +21,7 @@
             {{ end }}
           </div>
           <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto rounded-lg lg:!max-w-[1080px]" ) }}
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto rounded-lg lg:!max-w-[800px] xl:!max-w-[1080px] 2xl:!max-w-[1280px]" ) }}
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
             <h2 class="mb-4">
               {{ .title | markdownify }}
             </h2>
-            <p class="mb-8 text-lg">
+            <p class="mb-6 text-lg">
               {{ .content | markdownify }}
             </p>
             <ul>

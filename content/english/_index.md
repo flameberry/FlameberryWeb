@@ -3,8 +3,7 @@
 banner:
   title: "The Ultimate Game Engine to build Crazy Good Games... Crazy Fast."
   content: "Flameberry Engine is a C++ Game Engine based upon the Vulkan Graphics API and is currently under development. The goal is to build a capable fast and efficient 3D game engine which can ship games on platforms like macOS, Windows, and Linux, and maybe Consoles, PlayStations, Android and iOS in the future!"
-  # image: "/images/banner.png"
-  image: "/images/flameberry/EngineSS_PhysicsWithBG.jpg"
+  image: "/images/flameberry/EngineSS_PhysicsWithBG.jpeg"
   button:
     enable: true
     label: "Github Repository"
@@ -12,10 +11,8 @@ banner:
 
 # Features
 features:
-  - title: "Highlights of Flameberry"
-    image: "/images/service-1.png"
+  - title: "Highlights of Flameberry Engine"
     image: "/images/flameberry/Flameberry-Logo-Light.jpg"
-    # content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
     bulletpoints:
       - "**Graphics:** Support for PBR, Vulkan, and OpenGL."
       - "**Physics Engine:** Integration with Nvidia PhysX for realistic in-game physics."
@@ -26,29 +23,33 @@ features:
       - "**C# Scripting:** Blend C# and C++ seamlessly for scripting."
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: ""
+      link: ""
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "How do I get the Flameberry Engine?"
+    image: "/images/flameberry/steps.png"
+    content: "Getting the Flameberry Engine to work on your system is pretty easy. Follow the given steps:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Clone the Official Flameberry repository."
+      - "Open your terminal and run the scripts/generate_project.py script."
+      - "Open the generated project file (inside the 'build' directory) using an IDE and build it and run it."
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Github Repository"
+      link: "https://github.com/flameberry/FlameberryEngine"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "The Vision"
+    image: "/images/flameberry/RayTracing.png"
+    content: "The vision is to push the graphics rendering ability of Flameberry, focusing on precision and realism, trying to reach as close as it can get to the cutting-edge standards, with upcoming features like:"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "1. **Global Illumination:**
+        Implementing advanced algorithms for accurate Global Illumination, ensuring scenes are authentically lit with global lighting interactions."
+      - "2. **Optimized Bloom Techniques:**
+        Utilizing optimized algorithms for bloom effects, enhancing visual aesthetics without compromising performance."
+      - "3. **Efficient Signed Distance Fields:**
+        Leveraging Signed Distance Fields for mesh representation, optimizing rendering pipelines for lifelike object rendering."
+      - "4. **Ray Tracing:**
+        Pioneering the integration of Ray Tracing technology for pixel-perfect rendering, unlocking new levels of graphical fidelity and realism."
     button:
       enable: false
       label: ""
