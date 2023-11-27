@@ -1,3 +1,14 @@
+# Flameberry Website (Made using Hugo)
+This is the official repository for the Flameberry Website which is made using Hugo. The website will be hosted on https://flameberry.github.io
+
+### What is Hugo?
+Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+
+## Hugoplate Template README.md
+<details>
+
+<summary>See README.md of the hugoplate template that was used to generate this repository</summary>
+
 <h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
 
 <p align="center">Hugoplate is a free starter template built with Hugo, and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
@@ -219,3 +230,5 @@ List of projects people are building with **Hugoplate**! Have you built a projec
 | [![Open Neuromorphic](https://tinyurl.com/hp7avtje)](https://open-neuromorphic.org/) | [![AI Models](https://tinyurl.com/mu4p7dhb)](https://aimodels.org/) | [![Hugobricks](https://tinyurl.com/4x3uwhm9)](https://www.hugobricks.preview.usecue.com/) |
 |:---:|:---:|:---:|
 | **Open Neuromorphic** | **AI Models** | **Hugobricks** |
+
+</details>
