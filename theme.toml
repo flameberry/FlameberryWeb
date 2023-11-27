@@ -29,8 +29,8 @@ features = [
 ]
 
 [author]
-name = "Zeon Studio"
-homepage = "https://zeon.studio"
+name = "Flameberry Inc."
+homepage = "https://flameberry.github.io/"
 
 [original]
 author = "Zeon Studio"
