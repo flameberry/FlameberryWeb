@@ -1,1 +1,11 @@
 // Add your own custom styles here
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+.header {
+    @apply bg-body dark:bg-darkmode-body py-3;
+}
+
+.logo-text {
+    @apply h2;
+    font-family: 'Imperial Script';
+}

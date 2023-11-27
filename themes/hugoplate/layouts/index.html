@@ -21,7 +21,7 @@
             {{ end }}
           </div>
           <div class="col-12">
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" ) }}
+            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto rounded-lg lg:!max-w-[1080px]" ) }}
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
             class="mb:md-0 {{ if not (modBool $i 2) }}
               md:order-2
             {{ end }} md:col-5 mb-6">
-            {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
+            {{ partial "image" (dict "Src" .image "Alt" "feature image" "Class" "rounded") }}
           </div>
           <div
             class="{{ if not (modBool $i 2) }}
