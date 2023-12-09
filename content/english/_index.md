@@ -27,11 +27,11 @@ features:
       link: ""
 
   - title: "How do I get the Flameberry Engine?"
-    image: "/images/flameberry/steps.png"
+    image: "/images/flameberry/Snap.png"
     content: "Getting the Flameberry Engine to work on your system is pretty easy. Follow the given steps:"
     bulletpoints:
       - "Clone the Official Flameberry repository."
-      - "Open your terminal and run the scripts/generate_project.py script."
+      - "Open your terminal and run the scripts/Setup.py script."
       - "Open the generated project file (inside the 'build' directory) using an IDE and build it and run it."
     button:
       enable: true
