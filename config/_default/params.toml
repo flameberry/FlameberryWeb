@@ -46,7 +46,8 @@ link = "https://github.com/flameberry/FlameberryEngine"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["docs"]
+# include_all_sections = true
 show_image = true
 show_description = true
 show_tags = true

@@ -12,8 +12,8 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Documentation"
-url = "documentation/"
+name = "Docs"
+url = "docs/"
 weight = 3
 
 [[main]]
@@ -54,8 +54,8 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "Documentation"
-url = "documentation/"
+name = "Docs"
+url = "docs/"
 weight = 2
 
 [[footer]]

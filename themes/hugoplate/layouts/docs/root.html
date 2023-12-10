@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+            <div class="content">
+                <details class="table-of-content" open>
+                <summary>
+                    {{ with i18n "toc" }}
+                        {{ . }}
+                    {{ else }}
+                        Table Of Contents
+                    {{ end }}
+                </summary>
+                {{ .TableOfContents }}
+                </details>
+
+                <div style="display: none;">
+                    {{ .Content }}
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
