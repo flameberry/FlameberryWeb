@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Game Engine to build Crazy Good Games... Crazy Fast."
+  title: "The Ultimate Game Engine to build Games or Experiment in the World of Graphics."
   content: "Flameberry Engine is a C++ Game Engine based upon the Vulkan Graphics API and is currently under development. The goal is to build a capable fast and efficient 3D game engine which can ship games on platforms like macOS, Windows, and Linux, and maybe Consoles, PlayStations, Android and iOS in the future!"
   image: "/images/flameberry/EngineSS_PhysicsWithBG.jpeg"
   button:
@@ -31,7 +31,7 @@ features:
     content: "Getting the Flameberry Engine to work on your system is pretty easy. Follow the given steps:"
     bulletpoints:
       - "Clone the Official Flameberry repository."
-      - "Open your terminal and run the scripts/Setup.py script."
+      - "Open your terminal and run the Scripts/Setup.py script."
       - "Open the generated project file (inside the 'build' directory) using an IDE and build it and run it."
     button:
       enable: true
