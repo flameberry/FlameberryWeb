@@ -35,8 +35,8 @@ features:
       - "Open the generated project file (inside the 'build' directory) using an IDE and build it and run it."
     button:
       enable: true
-      label: "Github Repository"
-      link: "https://github.com/flameberry/FlameberryEngine"
+      label: "See Documentation"
+      link: "https://flameberry.github.io/documentation"
 
   - title: "The Vision"
     image: "/images/flameberry/RayTracing.png"
