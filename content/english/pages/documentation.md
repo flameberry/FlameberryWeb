@@ -12,7 +12,9 @@ draft: false
 
 ## Getting Started with Flameberry Engine
 
-Welcome to Flameberry Engine, a powerful and versatile game engine designed to empower developers in creating immersive and dynamic gaming experiences. This guide will walk you through the process of cloning the project, setting up dependencies, and building Flameberry Engine for the first time.
+Welcome to Flameberry Engine, a powerful and versatile game engine designed to empower developers in creating immersive and dynamic gaming experiences. This guide will walk you through the process of cloning the project, setting up dependencies, and building Flameberry Engine for the first time. 
+
+**Note: Flameberry Engine has support for MacOS and Windows. Linux platform is not tested yet, but you can give it a try!**
 
 ### Prerequisites
 
@@ -39,7 +41,11 @@ Flameberry Engine uses Vulkan as the Graphics API, so the Vulkan SDK is required
 #### Visual Studio (For Windows Only):
 Flameberry Engine uses Nvidia PhysX as the Physics Engine and to build the library on Windows, only Visual Studio presets are available. Hence, unless you have the Nvidia PhysX libraries already installed, you need to have Visual Studio 15/16/17 installed.
 
-**Alternative: If you have the libraries already installed (Both 'checked' and 'release' configurations are required) then make sure to copy paste those libraries in the `Flameberry/vendor/PhysX/physx/bin/windows/checked` and `Flameberry/vendor/PhysX/physx/bin/windows/release` folders.**
+**Alternative: If you have the libraries already installed (Both 'checked' and 'release' configurations are required) then make sure to copy paste those libraries in the following folders:**
+```bash
+Flameberry/vendor/PhysX/physx/bin/windows/checked
+Flameberry/vendor/PhysX/physx/bin/windows/release 
+```
 
 ### Build Steps
 #### Clone the Repository
