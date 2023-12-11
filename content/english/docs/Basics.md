@@ -1,5 +1,5 @@
 ---
-title: "Basics Of Flameberry Engine"
+title: "Basics"
 # meta title
 meta_title: "Basics of Flameberry Engine"
 # meta description

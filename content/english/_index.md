@@ -36,7 +36,7 @@ features:
     button:
       enable: true
       label: "See Documentation"
-      link: "https://flameberry.github.io/documentation"
+      link: "https://flameberry.github.io/docs"
 
   - title: "The Vision"
     image: "/images/flameberry/RayTracing.png"
