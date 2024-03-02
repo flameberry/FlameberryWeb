@@ -18,8 +18,8 @@ weight = 3
 
 [[main]]
 weight = 4
-name = "Blogs (WIP)"
-url = "blog/"
+name = "Gallery"
+url = "gallery/"
 
 
 # footer menu
