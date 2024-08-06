@@ -3,7 +3,7 @@
 banner:
   title: "The Ultimate Game Engine to build Games or Experiment in the World of Graphics."
   content: "Flameberry Engine is a C++ Game Engine based upon the Vulkan Graphics API and is currently under development. The goal is to build a capable fast and efficient 3D game engine which can ship games on platforms like macOS, Windows, and Linux, and maybe Consoles, PlayStations, Android and iOS in the future!"
-  image: "/images/flameberry/EngineSS_PhysicsWithBG.jpeg"
+  image: "/images/flameberry/FlameberrySS2.png"
   button:
     enable: true
     label: "Github Repository"
